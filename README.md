@@ -11,81 +11,84 @@ jquery轮播插件
 ### 基本使用
 #### html
 ```
-    <div class="img-box">
-        <ul class="slider">
-            <li>
-                <img src="../../Content/images/view1.jpg" />
-            </li>
-            <li>
-                <img src="../../Content/images/view2.jpg" />
-            </li>
-            <li>
-                <img src="../../Content/images/view3.jpg" />
-            </li>
-            <li>
-                <img src="../../Content/images/view4.jpg" />
-            </li>
-            <li>
-                <img src="../../Content/images/view5.jpg" />
-            </li>
-            <li>
-                <img src="../../Content/images/view6.jpg" />
-            </li>
-            <li>
-                <img src="../../Content/images/view7.jpg" />
-            </li>
-            <li>
-                <img src="../../Content/images/view8.jpg" />
-            </li>
-            <li>
-                <img src="../../Content/images/view9.jpg" />
-            </li>
-        </ul>
-        <div class="oper-box">
-            <input type="button" class="btnPrev" value="前" />
-            <input type="button" class="btnNext" value="后" />
-            <div class="indexBox">
-                <a href="javascript:;" class="active">1</a>
-                <a href="javascript:;" class="">2</a>
-                <a href="javascript:;" class="">3</a>
-            </div>
+<div class="img-box">
+    <ul class="slider">
+        <li>
+            <img src="../../Content/images/view1.jpg" />
+        </li>
+        <li>
+            <img src="../../Content/images/view2.jpg" />
+        </li>
+        <li>
+            <img src="../../Content/images/view3.jpg" />
+        </li>
+        <li>
+            <img src="../../Content/images/view4.jpg" />
+        </li>
+        <li>
+            <img src="../../Content/images/view5.jpg" />
+        </li>
+        <li>
+            <img src="../../Content/images/view6.jpg" />
+        </li>
+        <li>
+            <img src="../../Content/images/view7.jpg" />
+        </li>
+        <li>
+            <img src="../../Content/images/view8.jpg" />
+        </li>
+        <li>
+            <img src="../../Content/images/view9.jpg" />
+        </li>
+    </ul>
+    <div class="oper-box">
+        <input type="button" class="btnPrev" value="前" />
+        <input type="button" class="btnNext" value="后" />
+        <div class="indexBox">
+            <a href="javascript:;" class="active">1</a>
+            <a href="javascript:;" class="">2</a>
+            <a href="javascript:;" class="">3</a>
         </div>
-
     </div>
+
+</div>
 ```
 
 #### css
 ```
-    <style>
-        html, body, div, ul, li { margin: 0; padding: 0; }
-        ul { list-style-type: none; }
-        .intro { text-align: center; }
-        .img-box { width: 690px; height: 130px; margin: 10px auto; }
-            .img-box li { width: 225px; height: 130px; float: left; overflow: hidden; margin: 0 3px; }
-            .img-box img { width: 225px; height: 130px; }
-        .oper-box { text-align: center; }
-        .indexBox { margin-top: 20px; }
-            .indexBox a { width: 10px; height: 10px; border: 1px solid #0094ff; padding: 3px; }
-            .indexBox .active { background: #000; color: #fff; }
-    </style>
+<style>
+    html, body, div, ul, li { margin: 0; padding: 0; }
+    ul { list-style-type: none; }
+    .intro { text-align: center; }
+    .img-box { width: 690px; height: 130px; margin: 10px auto; }
+        .img-box li { width: 225px; height: 130px; float: left; overflow: hidden; margin: 0 3px; }
+        .img-box img { width: 225px; height: 130px; }
+    .oper-box { text-align: center; }
+    .indexBox { margin-top: 20px; }
+        .indexBox a { width: 10px; height: 10px; border: 1px solid #0094ff; padding: 3px; }
+        .indexBox .active { background: #000; color: #fff; }
+</style>
 ```
 
 #### script
 ```
-    <script src="lib/jquery-1.10.2.min.js"></script>
-    <script src="../src/jquery.slide.js"></script>
-    <script>
-        $(".slider").slide({
-            "switchTime": "3000",
-            "indexBoxSelector": ".indexBox",
-            "btnLeftSelector": ".btnPrev",
-            "btnRightSelector": ".btnNext",
-            "indexClass": "active",
-            "perScrollCount": 3
-        });
-    </script>
+<script src="lib/jquery-1.10.2.min.js"></script>
+<script src="../src/jquery.slide.js"></script>
+<script>
+    $(".slider").slide({
+        "switchTime": "3000",
+        "indexBoxSelector": ".indexBox",
+        "btnLeftSelector": ".btnPrev",
+        "btnRightSelector": ".btnNext",
+        "indexClass": "active",
+        "perScrollCount": 3
+    });
+</script>
 ```
-查看<a href="http://luopq.com/demo/drag/index.html" target="_blank">Demo</a>
+Demo
+1.<a href="http://luopq.com/demo/slide/examples/index.html" target="_blank">Demo1</a>
+2.<a href="http://luopq.com/demo/osum/index.html" target="_blank">Demo1</a>
+
 
 #### options
 | 参数名 | 作用 |
