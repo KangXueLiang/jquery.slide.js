@@ -86,8 +86,10 @@ jquery轮播插件
 </script>
 ```
 Demo
+
 1.<a href="http://luopq.com/demo/slide/examples/index.html" target="_blank">Demo1</a>
-2.<a href="http://luopq.com/demo/osum/index.html" target="_blank">Demo1</a>
+
+2.<a href="http://luopq.com/demo/osum/index.html" target="_blank">Demo2</a>
 
 
 #### options
