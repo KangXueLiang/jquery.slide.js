@@ -85,7 +85,7 @@ jquery轮播插件
     });
 </script>
 ```
-Demo
+#### Demo
 
 1.<a href="http://luopq.com/demo/slide/examples/index.html" target="_blank">Demo1</a>
 
