@@ -93,17 +93,17 @@ jquery轮播插件
 
 
 #### options
-| 参数名 | 作用 |
-| ----  | ---- |
-|switchTime| 轮播切换间隔时间，单位毫秒，默认5000|
-|speed| 轮播动画时间，单位毫秒，默认400|
-|perScrollCount|每次轮播数量，默认1|
-|indexBoxSelector|图片索引列表容器的选择器，默认“.indexBox”|
-|btnPrevSelector|向前按钮选择器，默认“.btnPrev”|
-|btnNextSelector|向后按钮选择器，默认“.btnNext”|
-|indexClass|当前索引样式，默认无样式|
-|bindHover|是否绑定轮播时的元素的Hover事件，绑定后，鼠标移上去将不轮播，默认为true|
-|onInit|轮播组件初始化的回调函数，其中this指向轮播元素本真|
-|onBeforeChange|轮播切换前的回调，其中this指向当前轮播项，含有一个参数指向当前轮播项索引|
-|onChanged|轮播切换后的回调，其中this指向当前轮播项，含有一个参数指向当前轮播项索引|
-|delay|轮播动画的延迟时间，单位毫秒默认为0|
+| 参数名 | 类型 | 默认值 | 描述 |
+| ----  | ---- | ----- | ----|
+|switchTime| number|5000|轮播切换间隔时间，单位毫秒|
+|speed|number| 400 | 轮播动画时间，单位毫秒|
+|perScrollCount|number|1|每次轮播数量|
+|indexBoxSelector|string|".indexBox"|图片索引列表容器的选择器|
+|btnPrevSelector|string|".btnPrev"|向前按钮选择器|
+|btnNextSelector|string|".btnNext"|向后按钮选择器|
+|indexClass|string|null|当前索引样式|
+|bindHover|boolean|true|是否绑定轮播时的元素的Hover事件，绑定后，鼠标移上去将不轮播|
+|onInit|function|null|轮播组件初始化的回调函数，其中this指向轮播元素本身|
+|onBeforeChange|function|null|轮播切换前的回调，其中this指向当前轮播项，含有一个参数指向当前轮播项索引|
+|onChanged|function|null|轮播切换后的回调，其中this指向当前轮播项，含有一个参数指向当前轮播项索引|
+|delay|number|0|轮播动画的延迟时间，单位毫秒|
