@@ -92,7 +92,7 @@ jquery轮播插件
 2.<a href="http://luopq.com/demo/osum/index.html" target="_blank">Demo2</a>
 
 
-### options
+### Options
 | 参数名 | 类型 | 默认值 | 描述 |
 | ----  | ---- | ----- | ----|
 |switchTime| number|5000|轮播切换间隔时间，单位毫秒|
