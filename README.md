@@ -85,14 +85,14 @@ jquery轮播插件
     });
 </script>
 ```
-#### Demo
+### Demo
 
 1.<a href="http://luopq.com/demo/slide/examples/index.html" target="_blank">Demo1</a>
 
 2.<a href="http://luopq.com/demo/osum/index.html" target="_blank">Demo2</a>
 
 
-#### options
+### options
 | 参数名 | 类型 | 默认值 | 描述 |
 | ----  | ---- | ----- | ----|
 |switchTime| number|5000|轮播切换间隔时间，单位毫秒|
