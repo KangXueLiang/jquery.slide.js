@@ -1,5 +1,5 @@
 ﻿/**
- * jquery.gallery.js v0.1.0
+ * jquery.slide.js v0.1.0
  * MIT License
  * author info pls visit: http://luopq.com
  * for more info pls visit: https://github.com/LuoPQ/jquery.slide.js
